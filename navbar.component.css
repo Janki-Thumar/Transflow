@@ -1,0 +1,70 @@
+
+.navbar{
+    background-color:#201827!important;
+  }
+.navbar-nav .nav-link.active{
+  font-family: 'DM Sans', sans-serif;
+
+  font-size: 16px;
+  font-weight: 400;
+  color: white !important;
+  margin-left: 15px;
+}
+
+.navbar-brand img{
+  margin-bottom: 5px;
+}
+
+.secondarybttn {
+  font-family: 'DM Sans', sans-serif;
+  color: white;
+  background-color: #e04e2b;
+  outline: none;
+  font-weight: 400 !important;
+  padding: 5px;
+  text-align: center !important;
+  width: auto;
+  height: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  border: none;
+  margin-left: 3px;
+  margin-top: 8px;
+}
+
+.loginbttn{
+  font-family: 'DM Sans', sans-serif;
+  color: white;
+  background-color:#302c3d;
+  
+  width: 80px;
+  height: 40px;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center !important;
+  border-radius: 5px;
+  margin-left: 30px;
+  margin-right: 20px !important;
+  margin-top: 8px;
+  padding: 5px;
+  border: none;
+}
+.navbar-nav .nav-item{
+  padding: 5px;
+}
+.navbar-nav .nav-link.active a{
+  font-family: 'DM Sans', sans-serif;
+  color: white !important;
+  text-decoration: none;
+}
+  
+@media (min-width: 1440px) {
+  .loginbttn{
+    margin-left: 190px;
+   
+  }
+  .secondarybttn {
+    margin-left: 10px;
+
+  }
+}

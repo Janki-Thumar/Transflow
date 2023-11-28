@@ -1,0 +1,69 @@
+.container{
+color: white;
+background-color:#201827!important;
+}
+
+.secondarybttn {
+font-family: 'DM Sans';
+color: white;
+background-color: #e04e2b;
+font-weight: 600 !important;
+padding: 10px;
+width: 300px;
+height: 50px;
+font-weight: 400;
+font-size: 16px;
+border: none;
+margin-top: 30PX;
+}
+
+p{
+font-size: 16px;
+font-family: 'DM Sans', sans-serif;
+font-weight: 400;
+padding: 20px;
+}
+
+h2{
+font-size: 40px;
+font-family: 'DM Sans', sans-serif;
+font-weight: 600;
+}
+
+.card-body{
+background-color:  #201827;
+opacity: 0.8;
+}
+h4{
+font-family: 'DM Sans', sans-serif;
+color: #F4A446;
+font-size: 40px;
+font-weight: 600;
+}
+
+h6{
+font-family: 'DM Sans', sans-serif;
+font-weight: 400;
+font-size: 25px;
+}
+
+.loginbtn{
+font-weight: 400;
+font-family: 'DM Sans', sans-serif;
+font-size: 18px;
+}
+
+@media (max-width: 425px) {
+    .fam {
+        width:70% !important ;
+        height: 70%;
+        color: #20163b;
+    }
+    }
+
+@media (max-width: 425px) {
+.secondarybttn{
+width: auto;
+margin-bottom: 50px;
+}
+}
